@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html lang="zh">
+<!--教程地址：https://www.bilibili.com/video/BV14J4114768-->
+
+<head>
+    <meta charset="utf-8">
+    <title>利用类选择器画三个盒子</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        #fake {
+            font-size: 20px;
+        }
+
+        .box {
+            width: 100px;
+            height: 100px;
+            font-size: 30px;
+        }
+
+        .red {
+            background-color: red;
+        }
+
+        .green {
+            background-color: green;
+        }
+
+        .font35 {
+            font-size: 35px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="red font35 box">刘德华</div>
+    <div class="green box" id="fake">刘德华</div>
+    <div class="red box">刘德华</div>
+</body>
+
+</html>
