@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html lang="zh">
+<!--教程地址：https://www.bilibili.com/video/BV14J4114768-->
+
+<head>
+    <meta charset="utf-8">
+    <title>伪类选择器以及元素显示</title>
+    <style>
+        a {
+            text-decoration: none;
+        }
+
+        #sp:hover {
+            color: greenyellow;
+        }
+
+        a:hover {
+            color: burlywood;
+        }
+
+        input:focus {
+            background-color: aliceblue;
+        }
+
+        div a {
+            display: block;
+            background-color: rgb(97, 230, 71);
+            width: 100px;
+            height: 40px;
+        }
+
+        .sp {
+            display: inline;
+            margin-right: 200px;
+            background-color: rgb(224, 140, 140);
+        }
+
+        #inline_block {
+            display: inline-block;
+            background-color: rgb(94, 204, 238);
+            width: 100px;
+            height: 50px;
+            margin-left: 50px;
+            padding: 2px;
+        }
+    </style>
+</head>
+
+<body>
+    <a href="#">abc</a>
+    <br>
+    <br>
+    <a href="#">def</a>
+    <br>
+    <br>
+    <div><a href="#">ghi</a></div>
+    <br>
+    <div class="sp">我是转行内</div><span>我是行内</span>
+    <span id="inline_block">我是转行内块</span>
+    <br>
+    <input type="text" name="a1">
+    <input type="text" name="a2" autofocus>
+    <input type="text" name="a3">
+</body>
+
+</html>
