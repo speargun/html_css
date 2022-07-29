@@ -1,0 +1,366 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+em {
+    font-style: normal;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #f3f5f7;
+}
+
+.w {
+    width: 1200px;
+    margin: auto;
+}
+
+.header {
+    height: 42px;
+    margin: 30px auto;
+}
+
+.header .logo {
+    float: left;
+    width: 198px;
+    height: 42px;
+}
+
+.header .nav {
+    float: left;
+    margin-left: 57px;
+}
+
+.header .nav ul li {
+    float: left;
+}
+
+.header .nav ul li a {
+    display: inline-block;
+    margin: 0 13px;
+    padding: 0 8px;
+    font: normal 400 18px/42px "Microsoft YaHei";
+    color: #050505;
+}
+
+.header .nav ul li a:hover {
+    border-bottom: 2px solid #00a4ff;
+    color: #00a4ff;
+}
+
+.search {
+    float: left;
+    margin-left: 74px;
+    padding: 1px 0;
+    width: 412px;
+    height: 42px;
+}
+
+.search input {
+    float: left;
+    padding-left: 18px;
+    width: 342px;
+    height: 38px;
+    border: 1px solid #00a4ff;
+    border-right: 0;
+}
+
+.search button {
+    float: left;
+    width: 50px;
+    height: 40px;
+    border: 0;
+    background-color: #00a4ff;
+}
+
+.login {
+    float: right;
+    margin-right: 35px;
+}
+
+.login a span {
+    height: 42px;
+    font: normal 400 14px/42px "Microsoft YaHei";
+    color: #050505;
+}
+
+.banner {
+    height: 420px;
+    background-color: #1c036c;
+}
+
+.banner .w {
+    height: 420px;
+    background: transparent url(../images/html_24_banner.png) no-repeat top center;
+}
+
+.subnav {
+    float: left;
+    padding-top: 12px;
+    width: 190px;
+    height: 408px;
+    background-color: rgba(0, 0, 0, .32);
+}
+
+.subnav ul li {
+    height: 44px;
+}
+
+.subnav ul li a {
+    display: block;
+    padding-left: 20px;
+    height: 44px;
+    font-size: 12px;
+    line-height: 44px;
+    color: #ffffff;
+    background: transparent url(../images/html_24_arrow_white.png) no-repeat 162px center;
+}
+
+.subnav ul li a:hover {
+    color: #00b4ff;
+    background: transparent url(../images/html_24_arrow_blue.png) no-repeat 162px;
+}
+
+.curriculum {
+    float: right;
+    margin-top: 50px;
+    width: 228px;
+    height: 300px;
+    background-color: #ffffff;
+}
+
+.curriculum h3 {
+    height: 48px;
+    background-color: #9bceea;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 48px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.curriculum ul {
+    padding: 10px 18px;
+}
+
+.curriculum li {
+    width: 192px;
+    height: 60px;
+    border-bottom: 1px solid #f6f6f6;
+}
+
+.curriculum li a {
+    display: inline-block;
+    width: 192px;
+    height: 60px;
+}
+
+.curriculum li em {
+    display: inline-block;
+    padding-top: 13px;
+    font-size: 16px;
+    color: #4e4e4e;
+}
+
+.curriculum li p {
+    display: inline-block;
+    font-size: 14px;
+    color: #4e4e4e;
+}
+
+.curriculum li span {
+    float: left;
+    margin: 0;
+    font-size: 12px;
+    color: #a5a5a5;
+}
+
+.curriculum button {
+    margin-left: 15px;
+    width: 198px;
+    height: 38px;
+    background-color: #fff;
+    border: 1px solid #3fbbff;
+    font-weight: 700;
+    color: #3fbbff;
+}
+
+.recommender {
+    margin-top: 8px;
+    height: 60px;
+    background-color: #fff;
+}
+
+.recommender dl {
+    float: left;
+    margin: 0 0 22px 35px;
+    font-size: 16px;
+}
+
+.recommender dt {
+    display: inline-block;
+    font-weight: 700;
+    color: #00a4ff;
+}
+
+.recommender dd {
+    display: inline-block;
+}
+
+.recommender dd a {
+    border-left: 1px solid #bfbfbf;
+    color: #050505;
+}
+
+.recommender a {
+    float: right;
+    margin: 22px 0;
+    padding: 0 32px 0 32px;
+    font-size: 12px;
+    color: #00a4ff;
+}
+
+.recommender a:hover {
+    color: #00a4ff;
+}
+
+.course .title {
+    margin-top: 26px;
+    height: 50px;
+}
+
+.course .title h3 {
+    float: left;
+    line-height: 50px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #494949;
+}
+
+.course .title span {
+    float: right;
+    margin-right: 30px;
+}
+
+.course .title span a {
+    font-size: 12px;
+    line-height: 50px;
+    color: #00a4ff;
+}
+
+.course .course_list {
+    width: 1215px;
+    margin-top: 5px;
+}
+
+.course ul li {
+    float: left;
+    width: 228px;
+    height: 271px;
+    background-color: #fff;
+    margin-right: 15px;
+    margin-bottom: 14px;
+}
+
+.course ul li a {
+    font-size: 11px;
+}
+
+.course ul li a img {
+    width: 100%;
+}
+
+.course ul li h4 {
+    padding: 24px 24px 20px;
+    font-size: 13px;
+    font-weight: 400;
+    color: #000;
+}
+
+.course ul li em {
+    padding-left: 24px;
+    color: #ff7c2d;
+}
+
+.course ul li span {
+    color: #999999;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+.footer {
+    height: 417px;
+    padding: 32px 20px;
+    background-color: #fff;
+}
+
+.footer .copyright {
+    float: left;
+    width: 440px;
+    height: 300px;
+}
+
+.footer .copyright p {
+    margin-top: 24px;
+    font-size: 12px;
+    color: #666666;
+}
+
+.footer .copyright button {
+    margin-top: 15px;
+    width: 118px;
+    height: 34px;
+    background-color: #fff;
+    border: 1px solid #00a4ff;
+    font-size: 14px;
+    color: #00a4ff;
+}
+
+.footer .links {
+    margin-right: 24px;
+    float: right;
+    width: 690px;
+    height: 300px;
+}
+
+.footer .links dl {
+    float: left;
+}
+
+.footer .links dt {
+    margin-left: 144px;
+    margin-bottom: 16px;
+    font-size: 16px;
+    color: #333333;
+}
+
+.footer .links dd a {
+    margin-left: 144px;
+    margin-bottom: 9px;
+    font-size: 12px;
+    color: #333333;
+}
