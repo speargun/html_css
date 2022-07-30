@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+<html lang="zh">
+<!--教程地址：https://www.bilibili.com/video/BV14J4114768-->
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        .tb-promo {
+            width: 520px;
+            height: 280px;
+            position: relative;
+        }
+
+        .tb-promo>img {
+            width: 100%;
+        }
+
+        .tb-promo .prev {
+            position: absolute;
+            top: 50%;
+            margin-top: -18px;
+            left: 0;
+            width: 30px;
+            height: 36px;
+            font-size: 24px;
+            color: #ffffff;
+            background-color: rgba(0, 0, 0, .35);
+            border-radius: 0 50% 50% 0;
+            border: 0;
+        }
+
+        .tb-promo .prev:hover {
+            color: rgb(255, 119, 0);
+        }
+
+        .tb-promo .next {
+            position: absolute;
+            top: 50%;
+            margin-top: -18px;
+            right: 0;
+            width: 30px;
+            height: 36px;
+            font-size: 24px;
+            color: #ffffff;
+            background-color: rgba(0, 0, 0, .35);
+            border-radius: 50% 0 0 50%;
+            border: 0;
+        }
+
+        .tb-promo .next:hover {
+            color: rgb(255, 119, 0);
+        }
+
+        .promo-nav {
+            position: absolute;
+            bottom: 0;
+            margin-bottom: 5px;
+            left: 50%;
+            margin-left: -42px;
+            width: 84px;
+            height: 16px;
+            background-color: rgba(200, 200, 200, .4);
+            border-radius: 7%;
+        }
+
+        .promo-nav li {
+            float: left;
+            margin-left: 4px;
+            margin-top: 2px;
+            width: 12px;
+            height: 12px;
+            background-color: rgba(255, 255, 255, 1);
+            border-radius: 50%;
+        }
+
+        .promo-nav .selected {
+            background-color: rgb(255, 119, 0);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="tb-promo">
+        <img src="../images/html_26_hotspot_1.webp" alt="hotspot_1">
+        <button class="prev">&lt;&nbsp;</button>
+        <button class="next">&nbsp;&gt;</button>
+        <ul class="promo-nav">
+            <li class="selected"></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+</body>
+
+</html>

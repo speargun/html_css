@@ -281,10 +281,21 @@ body {
 
 .course ul li a {
     font-size: 11px;
+    position: relative;
+}
+
+.course ul li:hover {
+    box-shadow: 5px 5px 20px 5px rgba(0, 0, 0, .3);
 }
 
 .course ul li a img {
     width: 100%;
+}
+
+.course ul li a .tag {
+    width: fit-content;
+    position: absolute;
+    right: -4px;
 }
 
 .course ul li h4 {
