@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html lang="zh">
+<!--教程地址：https://www.bilibili.com/video/BV14J4114768-->
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        .box {
+            margin: 30px auto;
+            position: relative;
+            width: 490px;
+            height: 276px;
+        }
+
+        .box .video {
+            width: 100%;
+        }
+
+        .box .bg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 490px;
+            height: 276px;
+            background: rgba(0, 0, 0, .35);
+            display: none;
+        }
+
+        .box .play {
+            position: absolute;
+            top: 0;
+            left: 0;
+            margin-top: 111px;
+            margin-left: 220px;
+            width: 50px;
+            height: 50px;
+            line-height: 50px;
+            font-size: 26px;
+            text-indent: 15px;
+            color: #ffffff;
+            background-color: orange;
+            border-radius: 50%;
+            display: none;
+        }
+
+        .box:hover .bg,
+        .box:hover .play {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <a href="#">
+            <img src="../images/html_27_video.jpg" alt="video" class="video">
+            <div class="bg"></div>
+            <div class="play">></div>
+        </a>
+    </div>
+</body>
+
+</html>
